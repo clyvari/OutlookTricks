@@ -6,9 +6,9 @@ This Form allows you top search for emails that were or were not responded to (a
 ### Import the form
 * Download the form [LastVerbProperties.cfg](../../../raw/main/forms/LastVerbProperties/LastVerbProperties.cfg)
 * Currently, importing the forms _requires_ `.ico` file(s) to be present. Either:
-  * Place the form into your Office _FORMS_ folder (see [Finding you Outlook install folder]()) (_requires admin rights !_)
+  * Place the form into your Office _FORMS_ folder (see [Finding you Outlook install folder](#finding-you-outlook-install-folder)) (_requires admin rights !_)
   * Modify the `LargeIcon` and `SmallIcon` properties with a valid path to a `.ico` file
-    * `.ico` files are present in your Office `FORMS` folder (see [Finding you Outlook install folder]())
+    * `.ico` files are present in your Office `FORMS` folder (see [Finding you Outlook install folder](#finding-you-outlook-install-folder))
     * Other `.ico` files you provide
 * Go to:
   > `Ribbon` > `File` > `Options` > `Advanced` > `Developers` > `Custom Forms` > `Manage Forms`
@@ -44,3 +44,15 @@ This Form allows you top search for emails that were or were not responded to (a
 ### Use search folder
 * Go to some emails and categorize them as `Need Reply` : They should show up in your search folder
 * Reply to some: They should disapear from your search folder
+
+Understanding the Search Criteria : [PidTagLastVerbExecuted Property](https://docs.microsoft.com/en-us/openspecs/exchange_server_protocols/ms-oxomsg/87a8b6b8-59a4-4859-9dcd-8b0f36e3d729)
+
+
+# Finding you Outlook install folder
+One simple method would be to:
+* Search Outlook in Start Menu
+  > `Right Click` > `Open File Location`
+  > 
+  > If Shortcut: > `Properties` > `Target` > `File Location`
+* Your `FORMS` folder should be at this location. You should install your file in : `FORMS\xxxx` (where `xxxx` is a 4 digit number, like `1033`, though any existing number can be used
+ 
