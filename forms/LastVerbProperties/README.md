@@ -19,7 +19,7 @@ This Form allows you top search for emails that were or were not responded to (a
   ![image](https://user-images.githubusercontent.com/23620704/115908580-a532f180-a46a-11eb-8340-94d4cbbe9307.png)
   
 
-# Exemple use: Configure a Search Folder to display all e-mails you need to reply to
+# Exemple use: Configure a Search Folder to display emails you need to reply to
 ### Configure search folder
 * (Optional) Enable the QueryBuilder (see: [Enable QueryBuilder](../settings/README.md#enables-query-builder-in-outlook))
 * Go to the list of Outlook folders, and find `Search Folders`, then:
