@@ -6,6 +6,7 @@ Contains different settings that can be enabled by following the instructions de
   * [Enables Developer Ribbon in Outlook](#enables-developer-ribbon-in-outlook)
   * [Enables Query Builder in Outlook](#enables-query-builder-in-outlook)
   * [Enables Unsafe Rules](#enables-unsafe-rules)
+  * [Set Macro Security Level to Notification Only](#set-macro-security-level-to-notification-only)
 * [How to use](#how-to-use)
 * [Finding Outlook Version](#finding-outlook-version)
 
@@ -23,6 +24,12 @@ Contains different settings that can be enabled by following the instructions de
 ### Enables Unsafe Rules
 ![image](https://user-images.githubusercontent.com/23620704/115901019-f76f1500-a460-11eb-8dec-7b2c1bc2dc55.png)
 * 16.0 ([Download](../../../raw/main/settings/16.0/EnableUnsafeRules.reg))
+
+### Set Macro Security Level to Notification Only
+![image](https://user-images.githubusercontent.com/23620704/115903461-e4aa0f80-a463-11eb-89db-c2782e0eb79a.png)
+* 16.0 ([Download](../../../raw/main/settings/16.0/SetMacroSecurityLevelNotification.reg))
+
+
 
 # How to use
 * Download the file corresponding to your version of Office/Outlook. See [Finding Outlook Version](#finding-outlook-version)
