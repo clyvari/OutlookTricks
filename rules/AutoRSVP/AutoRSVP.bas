@@ -1,3 +1,4 @@
+Attribute VB_Name = "AutoRSVP"
 ' Copyright 2021 clyvari https://github.com/clyvari
 '
 ' Licensed under the Apache License, Version 2.0 (the "License");
@@ -79,3 +80,6 @@ End Sub
 Public Sub AutoRSVP_AcceptAndSend(oMeetingItem_Request As MeetingItem)
   AutoRSVP oMeetingItem_Request, True, True
 End Sub
+
+
+
