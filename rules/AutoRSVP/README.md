@@ -11,13 +11,12 @@ It contains macros that can be used in an Outlook rule to automatically respond 
 * Set Macro Security Level to Notification Only: See [Set Macro Security Level to Notification Only](../../settings#set-macro-security-level-to-notification-only)
 * Download AutoRSVP Module: [AutoRSVP.bas](../../../../raw/main/rules/AutoRSVP/AutoRSVP.bas)
 * Import BAS Module file to Outlook:
-  
-      Ribbon > Developer > Visual Basic > (New Window) > File > Import
+  > `Ribbon` > `Developer` > `Visual Basic` > `(New Window)` > `File` > `Import`
 * Add a new Outlook Rule for incomming messages
   * For the Actions of the rule: Select **only**
-    * run a script
-    * stop procesing more rules
-  * Configure the _run a script_ rule and select one of the AutoRSVP macro
+    * `run a script`
+    * `stop procesing more rules`
+  * Configure the `run a script` rule and select one of the AutoRSVP macro
     Macro | Action
     ----- | ------
     AcceptAndSend | Accept the meeting and send a response to the organizer
@@ -29,5 +28,5 @@ It contains macros that can be used in an Outlook rule to automatically respond 
   * Going to your calendar
   * Checking the Sent folder and see what responses were sent
   * Checking the Deleted folder and see what meetings were deleted
-    * In case you use one of the _silent_ maro, you will see the meeting response in the deleted folder as well.
+    * In case you use one of the `Silently` maro, you will see the meeting response in the deleted folder as well.
   
